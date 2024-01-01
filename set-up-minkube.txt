@@ -1,13 +1,13 @@
 1. Install minikube
 	1.1 Go to https://minikube.sigs.k8s.io/docs/start/
-	1.2 In '1 Installation' 
+	1.2 In '1 Installation' menu
 		1.2.1 Click latest release link on "Download and run the installer for the latest release."
 		1.2.2 Open poweshell in Admin mode
 		1.2.3 Run the below comand
 			$oldPath = [Environment]::GetEnvironmentVariable('Path', [EnvironmentVariableTarget]::Machine)
-if ($oldPath.Split(';') -inotcontains 'C:\minikube'){
-  [Environment]::SetEnvironmentVariable('Path', $('{0};C:\minikube' -f $oldPath), [EnvironmentVariableTarget]::Machine)
-}
+			if ($oldPath.Split(';') -inotcontains 'C:\minikube'){
+  				[Environment]::SetEnvironmentVariable('Path', $('{0};C:\minikube' -f $oldPath), [EnvironmentVariableTarget]::Machine)
+			}
 
 2. Install Docker
 	2.1 Go to https://minikube.sigs.k8s.io/docs/drivers/docker/
@@ -18,5 +18,3 @@ if ($oldPath.Split(';') -inotcontains 'C:\minikube'){
 		minikube start --driver=docker
 	3.2 To make docker the default driver
 		minikube config set driver docker
-
-4. Install kubectl
