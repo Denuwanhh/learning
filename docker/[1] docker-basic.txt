@@ -1,0 +1,23 @@
+1. Docker - A container technology
+		|-A standalon unit of software [Code + Dependencies]
+
+2. 	Container	Container
+	APP		APP
+	Library		Library
+	--------------------------------------
+		     Docker Engine
+	--------------------------------------
+	OS Built-in/Emulated Container-support
+	--------------------------------------
+		     Operating System
+
+3. Linux provide OS built-in docker engine
+
+4. Create Docker
+	FROM 		- Base image
+	COPY . . 	- {First dot mean} All the file that contain the docker file, except Docker file 
+		          {Second dot mean} Path inside the image (root folder)
+	WORKDIR		- Provide location to run all the commands (RUN, COPY)
+	CMD 		- Not execute when image create, but when container start
+	ENTRYPOINT 	- Not execute when image create, but when container start with some arguments
+	EXPOSE 80 	- Port expose from image
