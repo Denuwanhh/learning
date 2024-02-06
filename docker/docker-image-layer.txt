@@ -1,0 +1,7 @@
+1. Layered architecture - 
+	[OPTIMEZATION POINT]
+	Run docker file line by line. 
+	The lines executes only if some change happence to the above line only
+	Unless and until it's use cache data
+
+2. 
