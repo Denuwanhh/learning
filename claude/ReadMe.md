@@ -1,4 +1,4 @@
-## COnfigurations
+## Configurations
 
 Configure the `ANTHROPIC_API_KEY` inside `.env` file
 
