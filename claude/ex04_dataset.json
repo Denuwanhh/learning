@@ -1,0 +1,56 @@
+[
+  {
+    "prompt_input": {
+      "height": "180 cm",
+      "weight": "75 kg",
+      "goal": "Muscle gain",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan should contain 4-5 meals distributed throughout the day",
+      "Daily caloric intake should be approximately 2,800-3,200 calories",
+      "Protein intake should be at least 150g (2g per kg body weight)",
+      "Include carbohydrates for energy (400-500g)",
+      "Include healthy fats (70-90g)",
+      "Meals should be practical and quick to prepare",
+      "Should include pre and post-workout nutrition",
+      "Format should be compact and easy to read"
+    ]
+  },
+  {
+    "prompt_input": {
+      "height": "165 cm",
+      "weight": "58 kg",
+      "goal": "Weight loss and endurance",
+      "restrictions": "Vegetarian"
+    },
+    "solution_criteria": [
+      "Meal plan should contain 4 meals distributed throughout the day",
+      "Daily caloric intake should be approximately 1,800-2,000 calories",
+      "Protein intake should be at least 100g from vegetarian sources",
+      "Include complex carbohydrates for endurance (250-300g)",
+      "Include healthy fats (50-60g)",
+      "All meals must be vegetarian-friendly",
+      "Should emphasize whole grains, legumes, and plant-based proteins",
+      "Should support cardiovascular training and recovery"
+    ]
+  },
+  {
+    "prompt_input": {
+      "height": "188 cm",
+      "weight": "92 kg",
+      "goal": "Strength and power",
+      "restrictions": "Gluten-free, Dairy-free"
+    },
+    "solution_criteria": [
+      "Meal plan should contain 5 meals distributed throughout the day",
+      "Daily caloric intake should be approximately 3,200-3,600 calories",
+      "Protein intake should be at least 180g (2g per kg body weight)",
+      "Include carbohydrates for power output (450-550g)",
+      "Include healthy fats (80-100g)",
+      "All meals must be gluten-free and dairy-free",
+      "Should include alternative protein sources and dairy substitutes",
+      "Should support heavy lifting and strength training recovery"
+    ]
+  }
+]
